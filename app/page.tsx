@@ -10,7 +10,7 @@ const projects = [
     title: 'Weather Application',
     description: 'A React app that fetches and displays weather data.',
     technologies: ['React', 'JavaScript', 'CSS'],
-    link: 'https://github.com/byui-ed/wdd430-portfolio'
+    link: 'https://github.com/s-shemmee/React-Weather-App'
   }
 ];
 
