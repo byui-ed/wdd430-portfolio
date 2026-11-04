@@ -4,13 +4,13 @@ const projects = [
     title: 'E-Commerce Dashboard',
     description: 'A full-stack Next.js app for managing products.',
     technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-    link: 'https://github.com/byui-ed/project1'
+    link: 'https://github.com/byui-ed/wdd430-portfolio'
   },
   {
     title: 'Weather Application',
     description: 'A React app that fetches and displays weather data.',
     technologies: ['React', 'JavaScript', 'CSS'],
-    link: 'https://github.com/byui-ed/project2'
+    link: 'https://github.com/byui-ed/wdd430-portfolio'
   }
 ];
 
@@ -27,3 +27,5 @@ export default function Home() {
     </main>
   );
 }
+
+
