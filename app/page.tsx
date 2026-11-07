@@ -14,18 +14,30 @@ const projects = [
   }
 ];
 
-export default function Home() { 
+import Image from "next/image";
+
+export default function Home() {
   return (
-    <main className="container mx-auto px-4 py-12">
-      <section className="text-center py-12">
-        <h1 className="text-4xl font-bold mb-4">My Portfolio</h1>
-        <p className="text-lg text-gray-700">
-          I'm a full-stack developer learning Next.js and React. Here are some of my recent projects.
+    <main className="flex min-h-screen flex-col items-center justify-center gap-6 bg-slate-50 px-6 py-12 text-center">
+      <Image
+        src="/tailwind-practice.png"
+        alt="Colorful abstract shapes representing web design"
+        width={800}
+        height={450}
+        priority
+        className="h-auto w-full max-w-2xl rounded-2xl shadow-lg transition-transform duration-300 hover:scale-[1.02]"
+      />
+
+      <section className="max-w-2xl space-y-3">
+        <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-5xl">
+          Tailwind CSS Practice
+        </h1>
+        <p className="text-base leading-7 text-slate-600 sm:text-lg">
+          Tailwind CSS lets you style pages using utility classes directly in
+          your markup, making it quick to build responsive, polished designs.
         </p>
       </section>
-      <ProjectList projects={projects} />
     </main>
   );
 }
-
 
